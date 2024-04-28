@@ -84,11 +84,11 @@ def save_to_csv(data,file_name:str):
     data.to_csv(file_name, index=False)  
 
 # parsing
-dblp_data = 'data\dblp2.xml'
+dblp_data = 'datasets/uniranking_data/dblp2.xml'
 root = parse(dblp_data)
 
-locations = load_csv('data\country-info.csv')
-csr = load_csv('data\csrankings.csv')
+locations = load_csv('UniRanking\data\country-info.csv')
+csr = load_csv('UniRanking\data\csrankings.csv')
 
 publications = unpack(root)
 
