@@ -29,11 +29,7 @@ Similar to CSRankings, the publication data is taken from the DBLP database as a
 
 - **Mapping**: The entire XML file is parsed with Python and key information such as title, year, conference, and list of authors are extracted. Then, the corresponding affiliations and the location information are added to the table, which is eventually compiled and saved into a comprehensive spreadsheet.
 
-- **Filtering**: With the combined spreadsheet, different insights can be analyzed by performing boolean indexing on the spreadsheet to obtaing the publication information matching the criteria.
-
-For this project, we specifically selected a total of 14 scientific conferences including but not limited to CVPR, ICML, and NIPS to represent the current state of research in AI-related fields.
-
-By filtering the spreadsheet by year, conference, and institution name, we get a smaller table with a row count we can use as our ranking metric.
+- **Filtering**: With the combined spreadsheet, different insights can be analyzed by performing boolean indexing on the spreadsheet to obtaing the publication information matching the criteria. For this project, we specifically selected a total of 14 scientific conferences including but not limited to CVPR, ICML, and NIPS to represent the current state of research in AI-related fields. By filtering the spreadsheet by year, conference, and institution name, we get a smaller table with a row count we can use as our ranking metric.
 
 ### Visualizations:
 
