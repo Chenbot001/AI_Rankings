@@ -8,7 +8,7 @@ This repository contains an alternative approach to ranking universities based o
 
 ### CSRankings.org Approach:
 
-- **Adjusted counts by co-author**: csrankings.org ranks universities based on a weighted metric that considers the number of publications and weights them according to author contributions. According to the CSRankings FAQ: each publication is counted exactly once, with credit adjusted by splitting evenly across all co-authors. This approach makes it impossible to boost rankings simply by adding authors to a paper. 
+CSRankings rank universities based on a weighted metric that considers the number of publications and weights them according to author contributions. According to the CSRankings FAQ: each publication is counted exactly once, with credit adjusted by splitting evenly across all co-authors. This approach makes it impossible to boost rankings simply by adding authors to a paper. 
 
 However, if more authors from the same institution were added to the same paper, then the overall proportion of the faculty from that particular institution would actually show a greater dominance. Of the total score of 1 per publication, a greater share of the point would go to the institution which added more co-authors, and subsequently impact the rankings when cumulated over a large number of publications. In this perspective, it appears that the co-author weighting contradicts the prevention of boosting rankings through co-authoring.
 
